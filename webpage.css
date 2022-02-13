@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0rem;
+    margin: 0rem;
+}
+body{
+    background-color:#ece3e3 ;
+}
+.container{
+    background-color: white;
+    max-width: 1200px;
+    width: 90%;
+    margin: 0 auto;
+    height: 100vh;
+    align-items: center;
+}
+.img-logo{
+    width:100px;
+    /* border: 2px solid purple; */
+
+}
+.logo{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    /* margin-left: 100px; */
+}
+.name{
+    /* border: 2px solid red; */
+    display: inline-block;
+    margin-top:0px ;
+    border-bottom: 2px solid black;
+}
+.tnp{
+    /* border: 2px solid black; */
+    text-align: center;
+}
+.tnp-name{
+    
+}
+.learning-resources{
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    display: inline-block;
+    /* margin-left: 450px; */
+    border-bottom: 2px solid black;
+    align-items: center;
+}
+.imgres{
+    display: inline-block;
+    /* border: 2px solid purple; */
+    width: 50px;
+    /* margin-left: 400px; */
+    /* float: left; */
+}
+.resources-name{
+    /* border: 2px solid blue; */
+    display: inline-block;
+    margin-left: 10px;
+    font-family: 'Acme', sans-serif;
+    letter-spacing: 1px;
+    /* margin-bottom: 20px; */
+
+}
+/* .box-container{
+   /* max-width: 800PX; */
+   margin-top: 10px;
+   /* margin-left: 250px; */
+    border: 2px solid purple; */
+/* } */
+.box-1{
+    border: 2px solid orange;
+    /* display: inline-block; */
+    /* width: 49%; */
+
+
+}
+.box-2{
+    border: 2px solid red;
+    /* display: inline-block; */
+
+}
+.accordion-item,.accordion-header{
+    background-color: transparent;
+    border: none !important;
+    padding: 0 !important;
+    margin-bottom: 20px;
+}
+.accordion-item{
+    box-shadow: 0 20px 20px 0 rgba(110, 130, 208, .18);
+
+}
+.accordion-button{
+    width: 100%;
+    height: 60px;
+    color: #000;
+    font-weight:bold !important;
+    text-decoration: none !important;
+    text-align: left !important;
+
+}
+.accordion-body{
+    background: #e8eeff;
+}
